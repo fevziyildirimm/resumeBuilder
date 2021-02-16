@@ -1,0 +1,119 @@
+.App {
+  text-align: center;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+.header {
+  margin: 1.5em auto;
+  max-width: 800px;
+  height: 180px;
+
+  position: relative
+}
+.name-img {
+  display: flex;
+}
+.name {
+  display: inline-block;
+  margin-right: 3em;
+}
+.name h1 {
+  font-size: 3em;
+  font-weight: 900;
+}
+.name h3 {
+  opacity: 0.5;
+  color: rgb(66, 106, 180);
+}
+.img {
+  width: 150px;
+  height: 150px;
+  border-radius: 150px;
+  position: absolute;
+  right: 1em;
+  top: 1em;
+}
+.contact {
+  opacity: 0.7;
+  display: flex;
+  position: relative;
+  top: 1.5em;
+}
+ul {
+  list-style: none;
+}
+.social {
+  margin-left: 1.5em;
+}
+
+.hr-header {
+  border: gray solid 1px;
+  opacity: 0.2;
+}
+input {
+  font-size: 1.3em;
+  border-radius: 5px; 
+  padding: 0.2em;
+}
+
+.title{
+  margin-top: 0.5em;
+  color: rgb(66, 106, 180);
+  display: inline-block;
+}
+.title::before{
+  content:2062
+}
+.sub-title{
+  padding: 0.5em;
+}
+.comp-info{
+  font-size: 0.9em;
+  opacity: 0.8;
+  padding-bottom: 0.3em;
+}
+.sub-title-info{
+padding: 0.5em;
+}
+.edu-info{
+  font-size: 0.9em;
+  opacity: 0.8;
+
+}
+.bottom-area{
+  display: flex;
+  justify-content: space-between;
+  justify-content: space-between;
+}
+.skills{
+  width: 350px;
+  height: auto;
+  border-radius: 15px;
+  display: flex;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+.skill{
+  border: 1px solid steelblue;
+  border-radius: 15px;
+  margin-right: 0.5em;
+  margin-top: 0.5em;
+}
+.btn{
+  background: steelblue;
+  color: white;
+  border-radius: 5px;
+  padding: 1em;
+  width: 100%;
+  font-weight: 900;
+}
+.add{
+  width:50px;
+  height:50px;
+  border-radius:50px;
+  background:steelblue;
+  color:white;
+  font-size:1.5em
+}
